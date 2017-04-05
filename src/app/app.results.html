@@ -1,0 +1,31 @@
+<!-- The search results -->
+<div class="container">
+  <div class = "theResults">
+    <div class = "title"><h4>FOUND</h4></div>
+    <div  *ngFor="let flight of flights | async" class="row ">
+      <div class="col-sm-2 precio">
+        <span class = "price"><h1>$400</h1></span><br>
+        <a class="btn btn-success select">SELECT</a>
+      </div>
+      <div class="col-sm-2">
+        AUS<br>1:00 pm
+      </div>
+      <div class="col-sm-2">
+        BOS<br>1:00 pm
+      </div>
+      <div class="col-sm-2">{{ flight.algo }}
+      </div>
+
+      <div class="col-sm-2">time
+      </div>
+
+      <div class="col-sm-2">DIRECT
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+

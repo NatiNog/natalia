@@ -1,0 +1,64 @@
+/*h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}*/
+
+
+
+.theForm{
+  margin: 50px;
+  max-width: 800px;
+  padding-left:50px;
+  padding-right:50px;
+
+  border:1px;
+  border-style: solid;
+  padding-bottom: 30px;
+  border-color: #61ae7d;
+
+
+}
+
+
+.theResults{
+  margin: 50px;
+  max-width: 1000px;
+  padding-left:50px;
+  padding-right:50px;
+
+  border:1px;
+  border-style: solid;
+  padding-bottom: 30px;
+  border-color: #61ae7d;
+
+}
+
+.mediano{
+  max-width: 200px;
+}
+
+.title{
+  background-color: #61ae7d;
+  color:#FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin-left: -50px;
+  margin-right: -50px;
+  margin-bottom: 20px;
+}
+
+.chico{
+  max-width: 50px;
+}
+
+.takeoff{
+  margin-top: 10px;
+}
+
+.precio{
+  text-align: center;
+
+}
+
